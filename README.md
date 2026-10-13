@@ -10,3 +10,7 @@ python balance.py
 ```
 
 Enter a Testnet address (starts with `r`) and it prints the balance in XRP. No keys or seeds are used.
+
+## Terms and disclaimer
+
+Not legal, financial or tax advice. Provided as-is with no warranty, and the author accepts no liability for any losses, damages or disputes. Read-only: never asks for seeds or keys. See [TERMS.md](TERMS.md).
