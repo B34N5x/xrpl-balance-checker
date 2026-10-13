@@ -14,3 +14,6 @@ Enter a Testnet address (starts with `r`) and it prints the balance in XRP. No k
 ## Terms and disclaimer
 
 Not legal, financial or tax advice. Provided as-is with no warranty, and the author accepts no liability for any losses, damages or disputes. Read-only: never asks for seeds or keys. See [TERMS.md](TERMS.md).
+
+## Notes
+Note: an internal Xaman support planning section appeared briefly in earlier commit history. It was a simple mistake made while learning project management, and it has been corrected and removed from the current version.
