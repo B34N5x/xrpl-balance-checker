@@ -1,15 +1,18 @@
 # XRPL Balance Checker
 
-A read-only Python script that looks up an XRP balance on the XRP Ledger **Testnet**, built with [xrpl-py](https://github.com/XRPLF/xrpl-py).
+A read-only Python script that looks up an XRP balance on the XRP Ledger, built with [xrpl-py](https://github.com/XRPLF/xrpl-py). **Testnet** is the default; **Mainnet** is opt-in.
+
+Prefer the browser? The live web checker has separate Testnet and Mainnet pages: [b34n5x.github.io/checker](https://b34n5x.github.io/checker/).
 
 ## Run it
 
 ```
 pip install xrpl-py
-python balance.py
+python balance.py            # Testnet (default)
+python balance.py --mainnet  # Mainnet (real XRP, read-only)
 ```
 
-Enter a Testnet address (starts with `r`) and it prints the balance in XRP. No keys or seeds are used.
+Enter an address (starts with `r`) and it prints the balance in XRP. It only reads public data: no keys or seeds are used, and it never signs, submits or moves anything.
 
 ## Terms and disclaimer
 
